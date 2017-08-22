@@ -34,7 +34,6 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "https://rockzan.github.io/photos/gallery/"
-  - JOURNAL: "https://rockzan.github.io/photos/journal/"
   - ABOUT: "https://rockzan.github.io/photos/about/"
 
 # All translation keys
