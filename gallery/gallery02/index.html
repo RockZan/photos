@@ -1,62 +1,62 @@
 ---
 layout: page
-title: "album"
-description: "masonry"
+title: "album of doggies"
+description: "doggy!"
 active: gallery
 header-img: "img/gallery-bg.jpg"
-album-title: "my 2nd album"
+album-title: "Dogs"
 images:
- - image_path: /gallery/archive/g02/bg1.jpg
-   caption: IMAGE TITLE
-   mfp-title: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g02/bg2.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g02/bg3.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
+- image_path: /gallery/archive/g02/P7290017.jpg
+  caption: CAPTION 1
+- image_path: /gallery/archive/g02/P7290018.jpg
+  caption: CAPTION 2
+- image_path: /gallery/archive/g02/P7290020.jpg
+  caption: CAPTION 3
+- image_path: /gallery/archive/g02/P7290021.jpg
+  caption: CAPTION 4
+- image_path: /gallery/archive/g02/P7290027.jpg
+  caption: CAPTION 5
 ---
 
 <html class="no-js" lang="en">
 <head>
-	<meta content="charset=utf-8">
+    <meta content="charset=utf-8">
 </head>
 
     <body>
  
-	<section id="content" role="main">
-		<div class="wrapper">
-	<br><br>
-			<h2>{{page.album-title}}</h2>
+    <section id="content" role="main">
+        <div class="wrapper">
+    <br><br>
+            <h2>{{page.album-title}}</h2>
 
 
-			<!-- Gallery __-->
-			<div class="gallery masonry-gallery">
-		
+            <!-- Gallery __-->
+            <div class="gallery masonry-gallery">
+
 {% for image in page.images %}  		
 
-				<figure class="gallery-item">
-					<header class='gallery-icon'>
+                <figure class="gallery-item">
+                    <header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-						
-					</header>	
-					<figcaption class='gallery-caption'>
-						<div class="entry-summary">
-							<h3>{{image.caption}}</h3>
-							<p>{{image.copyright}}</p>
-						</div>
-					</figcaption>
-				</figure>
-				
+
+                    </header>
+                    <figcaption class='gallery-caption'>
+                        <div class="entry-summary">
+                            <h3>{{image.caption}}</h3>
+                            <p>{{image.copyright}}</p>
+                        </div>
+                    </figcaption>
+                </figure>
+
 {% endfor %}
 
-			</div>
+            </div>
 
-		</div><!-- END .wrapper -->
-	</section>
+        </div><!-- END .wrapper -->
+    </section>
 
 <!-- jQuery -->    
 
@@ -81,7 +81,7 @@ images:
       $(document).ready(function($) {
         $('a.popup').magnificPopup({
           type: 'image',
-	  gallery:{
+      gallery:{
          enabled:true,
          navigateByImgClick: true,
          preload: [0,1] // Will preload 0 - before current, and 1 after the current image
