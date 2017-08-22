@@ -9,6 +9,7 @@ How to Use:
     * images:
         * image_path - The path that will be used for an individual image
         * caption - The caption/description for a picture
+* If you want to the about page, go to to /photos/about/index.html and change the text there.
 * Now let's say you want to create a new gallery for pictures of cats. In order to do this, you must
     * 1) Add the main picture you would like to use for the album cover into photos/gallery/albums
     * 2) Create a folder in the photos/gallery/archive directory called "cats" with all your cat pictures
