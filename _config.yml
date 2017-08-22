@@ -2,7 +2,7 @@
 title: PHOTORAMA
 email: ""
 description: "Photo Journal"
-url: "https://rockzan.github.io"
+url: "localhost:4000"
 baseurl: "/photos"
 facebook_username: ""
 twitter_username: ""
@@ -33,6 +33,7 @@ comments :
 
 # Internal nav
 nav:
+  - HOME: "https://rockzan.github.io/photos"
   - GALLERY: "https://rockzan.github.io/photos/gallery/"
   - ABOUT: "https://rockzan.github.io/photos/about/"
 
