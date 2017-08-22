@@ -15,7 +15,7 @@ How to Use:
     * 3) Create a folder in the photos/gallery/ directory called "cats-gallery" or the like, and copy the index.html file from photos/gallery/gallery01 and paste it into "gallery04" file
     * 4) In the index.html section denoted by ---, if you had 3 cats pictures in the archive directory, you can edit it to look something like
     
-    ---
+    \---
     layout: page
     title: "Cats"
     description: "Cats Meow"
@@ -23,42 +23,42 @@ How to Use:
     header-img: "img/gallery-bg.jpg"
     album-title: "Cats"
     images:
-     - image_path: /gallery/archive/cats/yellow-cat.jpg
+     \- image_path: /gallery/archive/cats/yellow-cat.jpg
        caption: A Yellow Cat
-     - image_path: /gallery/archive/cats/blue-cat.jpg
+     \- image_path: /gallery/archive/cats/blue-cat.jpg
        caption: A Blue Cat
-     - image_path: /gallery/archive/cats/red-cat.jpg
+     \- image_path: /gallery/archive/cats/red-cat.jpg
        caption: A Red Cat
-    ---
+    \---
     
     * 5) Add to the index.html file and make it look like:
     
-    ---
+    \---
     layout: page
     title: "ALBUMS"
     description: ""
     active: gallery
     header-img: "img/gallery-bg.jpg"
     images:
-     - image_path: /gallery/albums/alb01.jpg
+     \- image_path: /gallery/albums/alb01.jpg
        gallery-folder: /gallery/gallery01/
        gallery-name: Cars
        gallery-date: July 2015
-     - image_path: /gallery/albums/P7290027.jpg
+     \- image_path: /gallery/albums/P7290027.jpg
        gallery-folder: /gallery/gallery02/
        gallery-name: Dogs
        gallery-date: June 2015
-     - image_path: /gallery/albums/P8210107.jpg
+     \- image_path: /gallery/albums/P8210107.jpg
        gallery-folder: /gallery/gallery03/
        gallery-name: Solar Eclipse
        gallery-date: August 2017
-     - image_path: /gallery/albums/main-cat-picture.jpg
+     \- image_path: /gallery/albums/main-cat-picture.jpg
        gallery-folder: /gallery/cats-gallery/
        gallery-name: Cats Gallery
        gallery-date: June 2099
-    ---
+    \---
 
-##License
+**License**
 
 The MIT License (MIT)
 
