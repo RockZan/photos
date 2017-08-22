@@ -17,35 +17,10 @@ How to Use:
     
     ![Step 4 Instructions](/instructions/instruction1.png)
     
-    * 5) Add to the index.html file and make it look like:
+    * 5) Add to the index.html file and make it look like
     
     ![Step 5 Instructions](/instructions/instruction2.png)
     
-    ---
-    layout: page
-    title: "ALBUMS"
-    description: ""
-    active: gallery
-    header-img: "img/gallery-bg.jpg"
-    images:
-     - image_path: /gallery/albums/alb01.jpg
-       gallery-folder: /gallery/gallery01/
-       gallery-name: Cars
-       gallery-date: July 2015
-     - image_path: /gallery/albums/P7290027.jpg
-       gallery-folder: /gallery/gallery02/
-       gallery-name: Dogs
-       gallery-date: June 2015
-     - image_path: /gallery/albums/P8210107.jpg
-       gallery-folder: /gallery/gallery03/
-       gallery-name: Solar Eclipse
-       gallery-date: August 2017
-     - image_path: /gallery/albums/main-cat-picture.jpg
-       gallery-folder: /gallery/cats-gallery/
-       gallery-name: Cats Gallery
-       gallery-date: June 2099
-    ---
-
 **License**
 
 The MIT License (MIT)
