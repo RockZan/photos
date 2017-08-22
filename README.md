@@ -15,48 +15,36 @@ How to Use:
     * 3) Create a folder in the photos/gallery/ directory called "cats-gallery" or the like, and copy the index.html file from photos/gallery/gallery01 and paste it into "gallery04" file
     * 4) In the index.html section denoted by ---, if you had 3 cats pictures in the archive directory, you can edit it to look something like
     
-    \---                                                                 <br />
-    layout: page                                                         <br />     
-    title: "Cats"                                                        <br />     
-    description: "Cats Meow"                                             <br />                 
-    active: gallery                                                      <br />     
-    header-img: "img/gallery-bg.jpg"                                     <br />                         
-    album-title: "Cats"                                                  <br />         
-    images:                                                              <br />                                                             
-     \- image_path: /gallery/archive/cats/yellow-cat.jpg                 <br />                                             
-       caption: A Yellow Cat                                             <br />                 
-     \- image_path: /gallery/archive/cats/blue-cat.jpg                   <br />                                         
-       caption: A Blue Cat                                               <br />             
-     \- image_path: /gallery/archive/cats/red-cat.jpg                    <br />                                         
-       caption: A Red Cat                                                <br />             
-    \---                                                                 <br />
+    ![Instructions 1](https://gyazo.com/e20c2f2358c2d1cc8a9504d8a9196e0a)
     
     * 5) Add to the index.html file and make it look like:
     
-    \---                                                                 <br />
-    layout: page                                                         <br />                                                                    
-    title: "ALBUMS"                                                      <br />                  
-    description: ""                                                      <br />                  
-    active: gallery                                                      <br />                  
-    header-img: "img/gallery-bg.jpg"                                     <br />                                      
-    images:                                                              <br />          
-     \- image_path: /gallery/albums/alb01.jpg                            <br />                                              
-       gallery-folder: /gallery/gallery01/                               <br />                                          
-       gallery-name: Cars                                                <br />                          
-       gallery-date: July 2015                                           <br />                              
-     \- image_path: /gallery/albums/P7290027.jpg                         <br />                                                  
-       gallery-folder: /gallery/gallery02/                               <br />                                          
-       gallery-name: Dogs                                                <br />                          
-       gallery-date: June 2015                                           <br />                              
-     \- image_path: /gallery/albums/P8210107.jpg                         <br />                                                  
-       gallery-folder: /gallery/gallery03/                               <br />                                          
-       gallery-name: Solar Eclipse                                       <br />                                  
-       gallery-date: August 2017                                         <br />                                  
-     \- image_path: /gallery/albums/main-cat-picture.jpg                 <br />                                                          
-       gallery-folder: /gallery/cats-gallery/                            <br />                                              
-       gallery-name: Cats Gallery                                        <br />                                  
-       gallery-date: June 2099                                           <br />                              
-    \---                                                                 <br />
+    ![Instructions 2](https://gyazo.com/62eb6fbfc7fdfa70b22dd878292224f5)
+    
+    ---
+    layout: page
+    title: "ALBUMS"
+    description: ""
+    active: gallery
+    header-img: "img/gallery-bg.jpg"
+    images:
+     - image_path: /gallery/albums/alb01.jpg
+       gallery-folder: /gallery/gallery01/
+       gallery-name: Cars
+       gallery-date: July 2015
+     - image_path: /gallery/albums/P7290027.jpg
+       gallery-folder: /gallery/gallery02/
+       gallery-name: Dogs
+       gallery-date: June 2015
+     - image_path: /gallery/albums/P8210107.jpg
+       gallery-folder: /gallery/gallery03/
+       gallery-name: Solar Eclipse
+       gallery-date: August 2017
+     - image_path: /gallery/albums/main-cat-picture.jpg
+       gallery-folder: /gallery/cats-gallery/
+       gallery-name: Cats Gallery
+       gallery-date: June 2099
+    ---
 
 **License**
 
