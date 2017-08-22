@@ -15,11 +15,11 @@ How to Use:
     * 3) Create a folder in the photos/gallery/ directory called "cats-gallery" or the like, and copy the index.html file from photos/gallery/gallery01 and paste it into "gallery04" file
     * 4) In the index.html section denoted by ---, if you had 3 cats pictures in the archive directory, you can edit it to look something like
     
-    ![Instructions 1](https://gyazo.com/e20c2f2358c2d1cc8a9504d8a9196e0a)
+    ![Step 4 Instructions](/instructions/instruction1.png)
     
     * 5) Add to the index.html file and make it look like:
     
-    ![Instructions 2](https://gyazo.com/62eb6fbfc7fdfa70b22dd878292224f5)
+    ![Step 5 Instructions](/instructions/instruction2.png)
     
     ---
     layout: page
