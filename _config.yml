@@ -2,8 +2,8 @@
 title: Stone Zan
 email: ""
 description: "Photo Journal"
-url: "rockzan.github.io"
-baseurl: "/pictures"
+url: "http://rockzan.github.io/pictures"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - HOME: "rockzan.github.io/pictures"
-  - GALLERY: "rockzan.github.io/pictures/gallery/"
-  - ABOUT: "rockzan.github.io/pictures/about/"
+  - HOME: "http://rockzan.github.io/pictures"
+  - GALLERY: "http://rockzan.github.io/pictures/gallery/"
+  - ABOUT: "http://rockzan.github.io/pictures/about/"
 
 # All translation keys
 translations:
