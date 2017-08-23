@@ -1,4 +1,6 @@
 How to Use:
+* Download git, clone this repository into a directory
+* Download a nice text editor (e.g. Sublime Text) so editing pages is easier
 * On the home page, there are three images which are put on rotation. These are called "slider images." If you go to the photos/img/slider/ folder, you can add or remove pictures for up to three pictures to use for your slider.
 * When you redirect to the overall gallery page, you'll see different albums with pictures used to represent each album. If you go to the photos/gallery/albums/ folder, you can see the main pictures that are used to represent each album. These pictures will automatically be resized.
 * If you go to the photos/gallery/archive/ folder, you'll see folders called "g01", "g02", etc. Each of these folders has all the photos for those respective albums. You will insert any photos you want in these folders.
