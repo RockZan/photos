@@ -1,21 +1,22 @@
 How to Use:
 * Download git, clone this repository into a directory
 * Download a nice text editor (e.g. Sublime Text) so editing pages is easier
-* On the home page, there are three images which are put on rotation. These are called "slider images." If you go to the photos/img/slider/ folder, you can add or remove pictures for up to three pictures to use for your slider.
-* When you redirect to the overall gallery page, you'll see different albums with pictures used to represent each album. If you go to the photos/gallery/albums/ folder, you can see the main pictures that are used to represent each album. These pictures will automatically be resized.
-* If you go to the photos/gallery/archive/ folder, you'll see folders called "g01", "g02", etc. Each of these folders has all the photos for those respective albums. You will insert any photos you want in these folders.
-* If you go to the photos/gallery/gallery01/ folder, you'll want to pay attention to these attributes at the section at the top of the page because these will be used to describe and reference an individual album:
+* On the home page, there are three images which are put on rotation. These are called "slider images." If you go to the img/slider/ folder, you can add or remove pictures for up to three pictures to use for your slider.
+* When you redirect to the overall gallery page, you'll see different albums with pictures used to represent each album. If you go to the gallery/albums/ folder, you can see the main pictures that are used to represent each album. These pictures will automatically be resized.
+* If you go to the gallery/archive/ folder, you'll see folders called "g01", "g02", etc. Each of these folders has all the photos for those respective albums. You will insert any photos you want in these folders.
+* If you go to the gallery/gallery01/ folder, you'll want to pay attention to these attributes at the section at the top of the page because these will be used to describe and reference an individual album:
     * title - The title you will see at the top of the page once you click on an album
     * description - The caption that will appear under the title (not the album-title)
     * album-title - The title of the album that you will see when you hover over the title on the main gallery page and what you will see at the top of the specific album page
     * images:
         * image_path - The path that will be used for an individual image
         * caption - The caption/description for a picture
-* If you want to the about page, go to to /photos/about/index.html and change the text there.
+* If you want to edit the about page, go to to about/index.html and change the text there
+* Before you add images to the website, compress them here: http://compressimage.toolur.com/. I used lossy compression with image quality at 85% and compression type as progressive, but you can change it to whatever you like 
 * Now let's say you want to create a new gallery for pictures of cats. In order to do this, you must
-    * 1) Add the main picture you would like to use for the album cover into photos/gallery/albums
-    * 2) Create a folder in the photos/gallery/archive directory called "cats" with all your cat pictures
-    * 3) Create a folder in the photos/gallery/ directory called "cats-gallery" or the like, and copy the index.html file from photos/gallery/gallery01 and paste it into "gallery04" file
+    * 1) Add the main picture you would like to use for the album cover into gallery/albums
+    * 2) Create a folder in the gallery/archive directory called "cats" with all your cat pictures
+    * 3) Create a folder in the gallery/ directory called "cats-gallery" or the like, and copy the index.html file from gallery/gallery01 and paste it into "gallery04" file
     * 4) In the index.html section denoted by ---, if you had 3 cats pictures in the archive directory, you can edit it to look something like
     
     ![Step 4 Instructions](/instructions/instruction1.png)
